@@ -1,6 +1,3 @@
-dotfiles
-========
-
 # Installation
 git clone https://github.com/girishb/dotfiles.git ~/dotfiles
 
