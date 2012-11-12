@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='c:/src/sw/dev/gpu_drv/module_compiler/drivers/compiler/gpgpucomp/lib/ptxopt'
+let g:netrw_dirhist_2='C:/src/sw/dev/gpu_drv/module_compiler/drivers/compiler/gpgpucomp/lib'
+let g:netrw_dirhist_3='C:/src/sw/dev/gpu_drv/module_compiler/drivers/compiler/gpgpucomp/lib/ptxdci'
+let g:netrw_dirhist_4='C:/src/sw/dev/gpu_drv/module_compiler/drivers/compiler/gpgpucomp/lib'
+let g:netrw_dirhist_5='C:/src/sw/dev/gpu_drv/module_compiler/drivers/compiler/gpgpucomp'
