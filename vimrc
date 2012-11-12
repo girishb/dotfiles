@@ -495,7 +495,7 @@ endfunction
 if executable('ack')
     set grepprg=ack\ -aiH
 elseif executable('grep')
-    set grepprg=grep\ -aiH\ -R
+    set grepprg=grep\ -niH\ -R
 else
     set grepprg=internal
 endif
@@ -573,9 +573,9 @@ nnoremap <silent> <leader>gp :call GrepOverPath()<CR>
 " Directory where tags & cscope database file will be generated. " {{{
 
 if has("win32") || has("win64")
-    let g:tagsDir = 'c:/src/sw/compiler/gpgpu'
+    let g:tagsDir = 'c:/vim_temp'
 else
-    let g:tagsDir = '~'
+    let g:tagsDir = '~/tmp'
 endif
 
 " }}}
@@ -771,7 +771,7 @@ let g:p4Autoread = -1
 let g:p4PromptToCheckout = 0
 let g:no_plugin_maps = 1
 let g:loaded_perforcemenu = 1
-let g:p4ClientRoot='c:/src'
+let g:p4ClientRoot=$P4ROOT
 let g:p4Client=$P4CLIENT
 
 " opened files
